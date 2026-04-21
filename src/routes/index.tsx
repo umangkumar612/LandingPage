@@ -10,9 +10,9 @@ import {
   Star,
   Play,
   ArrowRight,
-  Twitter as TwitterIcon,
-  Github as GithubIcon,
-  Linkedin as LinkedinIcon,
+  Send,
+  Code2,
+  Globe,
   Sparkles,
   UserPlus,
   Workflow,
@@ -401,9 +401,9 @@ function Landing() {
         <div className="mx-auto mt-10 flex max-w-7xl flex-col items-center justify-between gap-4 border-t border-border px-4 pt-6 text-xs text-muted-foreground md:flex-row md:px-8">
           <span>© {new Date().getFullYear()} NovaAI Inc. All rights reserved.</span>
           <div className="flex gap-3">
-            <a href="#" aria-label="Twitter" className="hover:text-foreground"><Twitter className="h-4 w-4" /></a>
-            <a href="#" aria-label="GitHub" className="hover:text-foreground"><Github className="h-4 w-4" /></a>
-            <a href="#" aria-label="LinkedIn" className="hover:text-foreground"><Linkedin className="h-4 w-4" /></a>
+            <a href="#" aria-label="Twitter" className="hover:text-foreground"><Send className="h-4 w-4" /></a>
+            <a href="#" aria-label="GitHub" className="hover:text-foreground"><Code2 className="h-4 w-4" /></a>
+            <a href="#" aria-label="LinkedIn" className="hover:text-foreground"><Globe className="h-4 w-4" /></a>
           </div>
         </div>
       </footer>
