@@ -32,11 +32,15 @@ export const Route = createRootRoute({
       { title: "NovaAI – Work Smarter with AI Automation" },
       { name: "description", content: "Boost productivity, automate workflows, and save time with NovaAI's next-generation AI tools for students, developers, and businesses." },
       { name: "author", content: "NovaAI" },
-      { property: "og:title", content: "NovaAI – AI Powered Productivity Platform" },
-      { property: "og:description", content: "Automate tasks, analyze data, and collaborate seamlessly with NovaAI." },
+      { property: "og:title", content: "NovaAI – Work Smarter with AI Automation" },
+      { property: "og:description", content: "Boost productivity, automate workflows, and save time with NovaAI's next-generation AI tools for students, developers, and businesses." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "NovaAI – Work Smarter with AI Automation" },
+      { name: "twitter:description", content: "Boost productivity, automate workflows, and save time with NovaAI's next-generation AI tools for students, developers, and businesses." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/13bb0c65-ef6d-499b-b3e8-852938bedb81/id-preview-8217ba99--058e843c-2006-4a72-972c-fa0fe66f7d2c.lovable.app-1776798451779.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/13bb0c65-ef6d-499b-b3e8-852938bedb81/id-preview-8217ba99--058e843c-2006-4a72-972c-fa0fe66f7d2c.lovable.app-1776798451779.png" },
     ],
     links: [
       {
